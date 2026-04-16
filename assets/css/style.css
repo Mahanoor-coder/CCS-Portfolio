@@ -11,17 +11,17 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:10px 60px;
-background:rgba(11,61,145,0.85);
+background:rgb(255, 255, 255);
 backdrop-filter:blur(10px);
 z-index:1000;
 transition:background .3s;
 }
 .navbar.scrolled{
-background:rgba(60, 115, 211,0.95);
+background:rgb(255, 255, 255);
 }
-.logo img{height:50px;width:auto;}
+.logo img{height:60px;width:auto;}
 .nav-links{list-style:none;display:flex;gap:25px;}
-.nav-links li a{text-decoration:none;color:white;font-size:15px;transition:.3s;}
+.nav-links li a{text-decoration:none;color:#0b3d91;font-size:15px;transition:.3s;}
 .nav-links li a:hover{color:#4da6ff;}
 .nav-links a.active{color:#0077ff;font-weight:bold;}
 
