@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Continental Cargo Services</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="img/logo2.png" alt="Continental Cargo Logo">
+        </div>
+        <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+<li><a href="#about">About</a></li>
+<li><a href="#services">Services</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="menu-toggle">☰</div>
+    </nav>
+</header>
+
+<!-- ===== TOP SLIDER ===== -->
+<section id="home" class="slider">
+    <div class="slides">
+        <img src="img/img5.jpeg" class="slide active" alt="Slider Image 1">
+        <img src="img/img7.jpeg" class="slide" alt="Slider Image 2">
+    </div>
+    <div class="prev">&#10094;</div>
+    <div class="next">&#10095;</div>
+</section>
+
+<!-- ===== ABOUT SECTION ===== -->
+<section id="about" class="about">
+    <div class="about-container">
+        <h2>About Continental Cargo Services</h2>
+        <p>
+            Continental Cargo Services (CCS) is a premier international freight forwarding and logistics provider dedicated to bridging the gap between global markets and local businesses. Based in Pakistan, we specialize in delivering seamless, end-to-end supply chain solutions that empower our clients to trade with confidence across borders.
+
+With a strategic network spanning from Pakistan to the United States, Panama, and beyond, we don’t just move cargo—we move businesses. Our team of seasoned professionals leverages years of industry expertise to handle everything from complex sea and air freight to meticulous customs brokerage and local distribution.
+        <p>
+            We specialize in air, sea, and land freight with commitment to timely delivery and secure cargo handling.
+        </p>
+    </div>
+</section>
+
+<!-- ===== SERVICES FLIP CARDS ===== -->
+<section id="services" class="services">
+    <h2 class="section-title">Our Core Services</h2>
+    <div class="card-container">
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/img10.jpeg" alt="Air Freight">
+                    <div class="share-icon">🔗</div>
+                </div>
+                <div class="flip-card-back">
+                    <h3>Countries </h3>
+                    <p>We provide seamless logistics connectivity across the world’s major trade hubs:
+
+Middle East & Gulf: Extensive network for rapid trade and distribution.
+
+Far East: Connecting Asian markets with precision and speed.
+
+North America: Robust logistics support for USA and Canada.
+
+Europe & UK: Reliable supply chain solutions for the entire European region.</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/img14.jpeg" alt="Sea Freight">
+                    <div class="share-icon">🔗</div>
+                </div>
+                <div class="flip-card-back">
+                    <h3>Our Services</h3>
+                    <p>International Freight Forwarding (Air, Sea, & Land)
+
+Afghan Transit Trade (End-to-end logistics solutions)
+
+Customs Clearance & Brokerage (Import & Export)
+
+DDP (Delivered Duty Paid) & Door-to-Door Services
+
+Incoterms Expertise (FOB, CFR, CNF, & CIF)
+
+Warehousing & Distribution (Secure storage solutions)
+
+Comprehensive Logistics & Transport (Local & International)</p>
+                </div>
+            </div>
+        </div>
+        <div class="flip-card">
+            <div class="flip-card-inner">
+                <div class="flip-card-front">
+                    <img src="img/img9.jpeg" alt="Land Transport">
+                    <div class="share-icon">🔗</div>
+                </div>
+                <div class="flip-card-back">
+                    <h3>Commodity</h3>
+                    <p>1. High-quality knitted fabrics and export-ready garments.
+
+Premium hosiery and fashion wear with durable stitching.
+
+Industrial-grade leather and safety gloves for protection.
+
+100% pure Himalayan Pink Salt for global distribution.
+
+Reliable sourcing and trading of essential commodities.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="gallery" class="gallery-section">
+
+    <h2 class="gallery-title">Our Gallery</h2>
+
+    <!-- Filter Buttons -->
+    <div class="gallery-filter">
+        <button onclick="filterSelection('all')">All</button>
+        <button onclick="filterSelection('office')">Office</button>
+        <button onclick="filterSelection('work')">Work</button>
+        <button onclick="filterSelection('team')">Team</button>
+    </div>
+
+    <div class="gallery-grid">
+        <img src="img/img1.jpeg" class="gallery-item office" onclick="openLightbox(this.src)">
+        <img src="img/img10.jpeg" class="gallery-item work" onclick="openLightbox(this.src)">
+        <img src="img/img3.jpeg" class="gallery-item work" onclick="openLightbox(this.src)">
+        <img src="img/img9.jpeg" class="gallery-item work" onclick="openLightbox(this.src)">
+        <img src="img/img11.jpeg" class="gallery-item team" onclick="openLightbox(this.src)">
+        <img src="img/img12.jpeg" class="gallery-item office" onclick="openLightbox(this.src)">
+        <img src="img/img13.jpeg" class="gallery-item work" onclick="openLightbox(this.src)">
+        <img src="img/img14.jpeg" class="gallery-item team" onclick="openLightbox(this.src)">
+        <img src="img/img2.jpeg" class="gallery-item office" onclick="openLightbox(this.src)">
+        <img src="img/img4.jpeg" class="gallery-item work" onclick="openLightbox(this.src)">
+        <img src="img/img5.jpeg" class="gallery-item team" onclick="openLightbox(this.src)">
+        <img src="img/img6.jpeg" class="gallery-item office" onclick="openLightbox(this.src)">
+        <img src="img/img7.jpeg" class="gallery-item work" onclick="openLightbox(this.src)">
+        <img src="img/img8.jpeg" class="gallery-item team" onclick="openLightbox(this.src)">
+    </div>
+
+</section>
+
+<!-- Lightbox -->
+<div id="lightbox" onclick="closeLightbox()">
+    <img id="lightbox-img">
+</div>
+
+<!-- Lightbox -->
+<div id="lightbox" onclick="closeLightbox()">
+<img id="lightbox-img">
+</div>
+
+<!-- ===== WHY CHOOSE US ===== -->
+<section class="why-choose">
+    <div class="why-container">
+        <h2>Why Choose Continental Cargo Services</h2>
+        <h3> Global Footprint: Extensive operations in key trade hubs including Pakistan, USA, and Central America.
+Customized Solutions: We understand that every shipment is unique. We tailor our logistics strategies to fit your specific timelines and budget.
+Reliability & Transparency: With real-time insights and a commitment to safety, we ensure your goods reach their destination securely and on time.
+Comprehensive Support: From documentation and compliance to last-mile delivery, we handle the complexities so you can focus on growth.
+At Continental Cargo Services, your success is our mission. Whether you are a small business exploring international waters or a large corporation optimizing your supply chain, we are your trusted partner in every mile of the journey.</h3>
+        <div class="why-boxes">
+            <div class="why-box"><div class="icon">🚚</div><h3>Fast Delivery</h3><p>Timely shipment handling with reliable global freight solutions.</p></div>
+            <div class="why-box"><div class="icon">🌍</div><h3>Global Network</h3><p>Strong international partnerships for smooth worldwide cargo movement.</p></div>
+            <div class="why-box"><div class="icon">📦</div><h3>Secure Handling</h3><p>Advanced cargo safety standards to protect your shipments.</p></div>
+            <div class="why-box"><div class="icon">💼</div><h3>Professional Team</h3><p>Experienced logistics experts providing end-to-end freight solutions.</p></div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- ===== COMPANY PARTNERS SLIDER ===== -->
+<section class="company-slider">
+  <div class="logo-track">
+    <img src="img/s.logo.png">
+    <img src="img/pak.logo.png">
+    <img src="img/pt.logo.png">
+    <img src="img/f.logo.jfif">
+    <img src="img/v.logo.jfif">
+
+    <!-- duplicate -->
+    <img src="img/s.logo.png">
+    <img src="img/pak.logo.png">
+    <img src="img/pt.logo.png">
+    <img src="img/f.logo.jfif">
+    <img src="img/v.logo.jfif">
+
+        <img src="img/s.logo.png">
+    <img src="img/pak.logo.png">
+    <img src="img/pt.logo.png">
+    <img src="img/f.logo.jfif">
+    <img src="img/v.logo.jfif">
+</div>
+</section>
+<!-- ===== MAP SECTION ===== -->
+<section class="map-section">
+    <h2>Our Location</h2>
+    <div class="map-container">
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3620.879945904276!2d67.0848011150016!3d24.867801984042465!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f9aa8659f29%3A0x2d2a982c3eb2c63e!2s3rd%20Floor%20Plot%20%2310-D%2C%20Commercial%20Area%2C%20DHA%20Phase%202%2C%20Karachi%2C%20Pakistan!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s" 
+            width="100%" 
+            height="350" 
+            style="border:0;" 
+            allowfullscreen="" 
+            loading="lazy" 
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer id="contact" class="footer">
+    <div class="footer-container">
+        <div class="footer-box">
+            <h3>Continental Cargo Services</h3>
+            <p>Reliable global freight forwarding solutions worldwide.</p>
+        </div>
+        <div class="footer-box">
+            <h3>Contact Info</h3>
+            <p>📞 +92 3172362296 </p>
+            <p>📧 info@continentalcargo.com</p>
+            <p>🌐 www.continentalcargo.com</p>
+            <p>🔗 LinkedIn</p>
+        </div>
+        <div class="footer-box">
+            <h3>Our Offices</h3>
+            <p>📍 Karachi, Pakistan</p>
+            <p>📍 Dubai, UAE</p>
+            <p>📍 Faisalabad, pakistan</p>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 Continental Cargo Services | All Rights Reserved</div>
+</footer>
+
+<!-- WhatsApp Float -->
+<a href="https://wa.me/923172362296" class="whatsapp-float" target="_blank">
+    <img src="img/w.logo.jfif" alt="WhatsApp">
+</a>
+
+<script src="script.js"></script>
+<script src="scroll.js"></script>
+</body>
+</html>
